@@ -1,10 +1,12 @@
+import { FETCH_BUTTON_CLICKED } from "./types"
+
 export const fetchPost = () => {
     return {
-      type: 'FETCH_BUTTON_CLICKED',
+      type: FETCH_BUTTON_CLICKED,
       payload: [
         {
             userId: 1,
-            id: i,
+            id: 1,
             title: 'Fake Title',
             body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         },

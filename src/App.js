@@ -5,7 +5,7 @@ import ButtonComponent from './components/ButtonComponent';
 function App() {
   return (
     <div className='App'>
-      <h1>yoww</h1>
+      <h1>yow</h1>
       <ButtonComponent/>
     </div>
   );
